@@ -37,7 +37,8 @@
 </head>
 
 <body class="sora">
-    <header>
+    <!-- Header -->
+    <header class="mb-14 lg:mb-32">
         <!-- Navbar -->
         <nav class="mb-8 lg:mb-24">
             <div class="flex justify-between py-4 px-3 bg-[#FFF9F4] lg:hidden border border-black">
@@ -119,7 +120,10 @@
             </div>
         </nav>
         <!-- banner section -->
-        <div class="px-4 lg:px-36 relative">
+        <div class="px-4 lg:px-36 relative flex">
+            <!-- banner image -->
+            <img class="relative object-contain md:mt-[0px] mt-[180px] lg:w-11/12 lg:mx-auto" src="images/cat-big.png"
+                alt="">
             <!-- title and description -->
             <div class="absolute z-10">
                 <h1 class="ad text-3xl mb-3 lg:text-6xl lg:mb-4">Pamper Your Pet, <br> Because They Deserve <br> the Bes
@@ -130,12 +134,85 @@
                     class="btn bg-[#FFDC26] text-[16px] px-7 py-2 w-36 h-10 hover:bg-transparent hover:text-[#FFDC26] hover:border hover:border-[#FFDC26] lg:w-40 lg:h-11 lg:text-xl">Find
                     a pet</button>
             </div>
-            <!-- banner image -->
-            <div class="absolute top-44 lg:-top-20 lg:w-4/5 lg:mx-auto">
-                <img src="images/cat-big.png" alt="">
-            </div>
         </div>
     </header>
+
+    <!-- main content  -->
+    <main>
+        <!-- categories section -->
+        <div class="px-4 lg:px-36">
+            <h1 class="ad text-2xl mb-8">Browse By Categories</h1>
+            <!-- Card -->
+            <div class="grid grid-cols-2 gap-2 lg:grid-cols-6 lg:gap-6">
+                <!-- card 1 -->
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-8 lg:px-12">
+                        <img src="images/dog-cartoon.png"
+                            alt="Dog" class="rounded-full bg-white px-6 py-6 mb-0 lg:px-4 lg:py-4" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title ad mb-2 pt-0 lg:text-xl">Dog</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-8 lg:px-12">
+                        <img src="images/fish-cartoon.png"
+                            alt="Dog" class="rounded-full bg-white px-6 py-6 mb-0 lg:px-4 lg:py-4" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title ad mb-2 pt-0 lg:text-xl">Fish</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-8 lg:px-12 ">
+                        <img src="images/cat-cartoon.png"
+                            alt="Dog" class="rounded-full bg-white px-6 py-6 mb-0 lg:px-4 lg:py-4" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title ad mb-2 pt-0 lg:text-xl">Cat</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card 4 -->
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-8 lg:px-12">
+                        <img src="images/bird-cartoon.png"
+                            alt="Dog" class="rounded-full bg-white px-6 py-6 mb-0 lg:px-4 lg:py-4" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title ad mb-2 pt-0 lg:text-xl">Birds</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card 5 -->
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-8 lg:px-12">
+                        <img src="images/mouse-cartoon.png"
+                            alt="Dog" class="rounded-full bg-white px-6 py-6 mb-0 lg:px-4 lg:py-4" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title ad mb-2 pt-0 lg:text-xl">Small pet</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+                <!-- card 6 -->
+                <div class="card bg-[#F9DF8A] shadow-xl">
+                    <figure class="px-10 pt-8 lg:px-12">
+                        <img src="images/rabbit-cartoon.png"
+                            alt="Dog" class="rounded-full bg-white px-6 py-6 mb-0 lg:px-4 lg:py-4" />
+                    </figure>
+                    <div class="card-body items-center text-center">
+                        <h2 class="card-title ad mb-2 pt-0 lg:text-xl">Rabbit</h2>
+                        <p>3 items</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
